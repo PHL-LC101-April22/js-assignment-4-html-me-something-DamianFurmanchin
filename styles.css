@@ -1,1 +1,76 @@
-/* Write your CSS here! */
+html {
+  display: block;
+  margin: 8px;
+  font-family: 'Helvetica';
+}
+
+#mainHeading {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  img {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 240px;
+    max-height: 280px;
+
+  }
+
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  body {
+    display: block;
+    background-color: lightblue;
+  }
+
+p.funParagraph {
+  color: green;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+a:link, a:visited {
+  background-color: orange;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
